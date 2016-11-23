@@ -25,9 +25,9 @@ github_username: jekyll
 markdown: kramdown
 defaults:
   scope:
-     path: ""
+     path: "team"
      type: "team"
   values:
     designation: "Team Member"
     Photo: "/uploads/bender.png"
-    profile_url: https://en.wikipedia.org/wiki/Walter_Bender
+    profile_url: "https://en.wikipedia.org/wiki/Walter_Bender"
