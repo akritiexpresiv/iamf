@@ -29,11 +29,3 @@ url: http://0.0.0.0:4000
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
-defaults:
-  scope:
-    path: "/team"
-    type: "team"
-  values:
-    designation: "President"
-    photo: "/uploads/bender.png"
-    profile_url: "https://en.wikipedia.org/wiki/Walter_Bender"
