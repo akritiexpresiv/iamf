@@ -1,5 +1,29 @@
-$(document).foundation();
+$(document).ready(function(){
 
+  $('.top-nav').hide();
+	$('#nav-icon3').click(function(){
+		$(this).toggleClass('open');
+    $('.top-nav').fadeToggle();
+	});
+
+  $(".method").click(function() {
+      $('html,body').animate({
+          scrollTop: $(".method-content").offset().top-160},
+          1000);
+  });
+  $(".team").click(function() {
+      $('html,body').animate({
+          scrollTop: $(".team-content").offset().top-160},
+          1000);
+  });
+  $(".advisor").click(function() {
+      $('html,body').animate({
+          scrollTop: $(".advisor-content").offset().top-160},
+          1000);
+  });
+
+
+});
 particlesJS('particles-js',
   {
     "particles": {
