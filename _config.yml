@@ -31,7 +31,7 @@ github_username: jekyll
 markdown: kramdown
 defaults:
   scope:
-    path: "team"
+    path: "/team"
     type: "team"
   values:
     designation: "President"
