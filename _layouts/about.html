@@ -12,11 +12,11 @@
 			</div>
 			<div class="horizontal-line"></div>
 
-			          
+
 			<div class="team-content">
 				<h1 class="bold capitalize margin-bottom">Our Team</h1>
 				<div class="row medium-up-3 large-up-3">
-				{% for member in site.team %}
+					{% for member in site.team %}
 					<div class="column">
 						<a href="{{ member.profile_url }}">
 							<h1 class="bold capitalize team-members">{{ member.title }}</h1>
@@ -25,33 +25,27 @@
 							<p>{{ member.content }}</p>
 						</a>
 					</div>
-				{% endfor %}					
+					{% endfor %}					
 				</div>
 			</div>
-			
+
 
 			<div class="horizontal-line"></div>
 
 
 			<div class="advisor-content">
 				<h3 class="bold capitalize">Advisory Board</h3>
-				<p><span class="bold">Howard Nuk,</span>VP Industrial Design, Samsung Consumer Electronics, San Francisco</p>
-				<p><span class="bold">Hartmut Esslenger,</span>Founder, Frog Design, San Francisco</p>
-				<p><span class="bold">Brian K Smith,</span>Professor, Drexel University, Philadelphia</p>
-				<p><span class="bold">Jon Craine,</span>Principal, Jon Craine Graphic Design, Boston</p>
-				<p><span class="bold">Jaime Borras,</span>CTO, Mobile Technology Consortium, Florida International University</p>
-				<p><span class="bold">Vassoula Vasiliou,</span>President, AIGA Miami</p>
-				<p><span class="bold">Danilo De Rossi,</span>Director, Centro Piaggio, University of Pisa, Italy</p>
-				<p><span class="bold">Marc Desmulliez,</span>Director, Nature Inspired Manufacturing Centre, UK</p>
-				<p><span class="bold">Myorr Janha,</span>Chief Marketing Officer, Rush Communications/ Simmons Design Group</p>
-				<p><span class="bold">Peter Antonelli,</span>Design Director, IDEO New York</p>
+				{% for member in site.advisory-board %}
+				<p><span class="bold">{{ member.title }},</span> {{ member.designation }}, {{ member.company }}, {{ member.location }}</p>
+				{% endfor %}
+
 				<div class="horizontal-line"></div>
+
+
 				<h3 class="bold capitalize">Board of Overseers</h3>
-				<p><span class="bold">Larry Rifkin,</span>Rifkin and Fox ‑ Isicoff, P.A.</p>
-				<p><span class="bold">Omar Camero Zamora,</span>President, Televen</p>
-				<p><span class="bold">Rene Brillembourg,</span>President, Emida Technologies</p>
-				<p><span class="bold">Javier Elguea Solís,</span>Director, Educational Programs, Carlos Slim Foundation</p>
-				<p><span class="bold">Martín Camero Alvarez,</span>Director, Educational Programs, Carlos Slim Foundation</p>
+				{% for member in site.advisory-board %}
+				<p><span class="bold">{{ member.title }},</span> {{ member.designation }}, {{ member.company }}, {{ member.location }}</p>
+				{% endfor %}
 			</div>
 		</div>
 		<div class="large-2 medium-2 column">
