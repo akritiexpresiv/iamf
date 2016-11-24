@@ -2,6 +2,12 @@
 title: Your awesome title
 timezone: UTC
 collections:
+  advisory-board:
+    title: Advisory Board
+    output: true
+  board-of-overseers:
+    title: Board of Overseers
+    output: true
   events:
     title: Events
     output: true
