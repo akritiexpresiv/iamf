@@ -36,7 +36,8 @@
 
 			<div class="advisor-content">
 				<h3 class="bold capitalize">Advisory Board</h3>
-				{% for member in site.advisory-board %}
+				{% assign sorted = (site.advisory-board | sort: 'date') %}
+				{% for member in sorted %}
 				<p><span class="bold">{{ member.title }},</span> {{ member.designation }}, {{ member.company }}, {{ member.location }}</p>
 				{% endfor %}
 
@@ -44,7 +45,8 @@
 
 
 				<h3 class="bold capitalize">Board of Overseers</h3>
-				{% for member in site.advisory-board %}
+				{% assign sorted = (site.board-of-overseers | sort: 'date') %}
+				{% for member in sorted %}
 				<p><span class="bold">{{ member.title }},</span> {{ member.designation }}, {{ member.company }}, {{ member.location }}</p>
 				{% endfor %}
 			</div>
