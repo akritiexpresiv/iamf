@@ -20,6 +20,15 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: team
+  values:
+    title: Team Member
+    designation: President
+    photo: "/uploads/bender.png"
+    profile_url: https://en.wikipedia.org/
 email: your-email@domain.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
@@ -29,13 +38,3 @@ url: http://0.0.0.0:4000
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
-defaults:
-  -
-    scope:
-      path: ""
-      type: "team"
-    values:
-      title: Team Member
-      designation: President
-      photo: "/uploads/bender.png"
-      profile_url: https://en.wikipedia.org/
