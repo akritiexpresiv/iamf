@@ -28,7 +28,7 @@ defaults:
     title: Team Member
     designation: President
     photo: "/uploads/bender.png"
-    profile_url: https://en.wikipedia.org/
+    profile_url: 
 email: your-email@domain.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
