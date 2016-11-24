@@ -1,7 +1,7 @@
 ---
 title: Franco Lodato
 date: 2016-11-24 06:02:00 Z
-position: 0
+position: 1
 designation: Vice President
 photo: "/uploads/lodato.png"
 profile_url: https://en.wikipedia.org/wiki/Franco_Lodato
