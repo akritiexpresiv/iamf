@@ -16,7 +16,8 @@
 			<div class="team-content">
 				<h1 class="bold capitalize margin-bottom">Our Team</h1>
 				<div class="row medium-up-3 large-up-3">
-					{% for member in site.team %}
+					{% assign sorted = (site.team | sort: 'date') %}
+					{% for member in sorted %}
 					<div class="column">
 						<a href="{{ member.profile_url }}">
 							<h1 class="bold capitalize team-members">{{ member.title }}</h1>
