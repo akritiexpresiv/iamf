@@ -26,8 +26,8 @@ defaults:
     type: team
   values:
     title: Team Member
-    designation: President
-    photo: "/uploads/bender.png"
+    designation: 
+    photo: 
     profile_url: 
 email: your-email@domain.com
 description: Write an awesome description for your new site here. You can edit this
