@@ -13,22 +13,22 @@
 			<div class="horizontal-line"></div>
 
 
-			<div class="team-content">
-				<h1 class="bold capitalize margin-bottom">Our Team</h1>
-				<div class="row medium-up-3 large-up-3">
-					{% assign sorted = (site.team | sort: 'date') %}
-					{% for member in sorted %}
-					<div class="column">
-						<a href="{{ member.profile_url }}">
-							<h1 class="bold capitalize team-members">{{ member.title }}</h1>
-							<img src="{{ member.photo }}" alt="bender">
-							<h3 class="bold capitalize">{{ member.designation }}</h3>
-							<p>{{ member.content }}</p>
-						</a>
+			<a href="#" id="team"><div class="team-content">
+					<h1 class="bold capitalize margin-bottom">Our Team</h1>
+					<div class="row medium-up-3 large-up-3">
+						{% assign sorted = (site.team | sort: 'date') %}
+						{% for member in sorted %}
+						<div class="column">
+							<a href="{{ member.profile_url }}">
+								<h1 class="bold capitalize team-members">{{ member.title }}</h1>
+								<img src="{{ member.photo }}" alt="bender">
+								<h3 class="bold capitalize">{{ member.designation }}</h3>
+								<p>{{ member.content }}</p>
+							</a>
+						</div>
+						{% endfor %}					
 					</div>
-					{% endfor %}					
-				</div>
-			</div>
+				</div></a>
 
 
 			<div class="horizontal-line"></div>
