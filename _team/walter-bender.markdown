@@ -1,6 +1,7 @@
 ---
 title: Walter Bender
 date: 2016-11-23 06:01:00 Z
+position: 1
 designation: President
 photo: "/uploads/bender.png"
 profile_url: https://en.wikipedia.org/wiki/Walter_Bender
