@@ -11,9 +11,6 @@ collections:
   events:
     title: Events
     output: true
-  iamf-details:
-    title: IAMF Details
-    output: true
   posts:
     title: Posts
     output: true
