@@ -5,9 +5,6 @@ collections:
   advisory-board:
     title: Advisory Board
     output: true
-  board-of-overseers:
-    title: Board of Overseers
-    output: true
   posts:
     title: Posts
     output: true
