@@ -9,7 +9,7 @@ layout: default
 			<div class="row">
 				<div class="medium-10 small-12 column">
 					<div class="medium-10 small-12 column">
-						{% assign sorted = (site.events | sort: 'date') %}
+						{% assign sorted = (site.events %}
 						{% for event in sorted %}
 						<a href="{{ event.event_url }}"><div class="future-content">
 							<h2 class="bold capitalize margin-bottom">{{ event.title }}</h2>
