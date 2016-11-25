@@ -23,40 +23,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-defaults:
-- scope:
-    path: ''
-    type: team
-  values:
-    title: Team Member
-    designation: 
-    photo: 
-    profile_url: 
-- scope:
-    path: ''
-    type: advisory-board
-  values:
-    title: 
-    designation: 
-    company: 
-    location: 
-- scope:
-    path: ''
-    type: board-of-overseers
-  values:
-    title: 
-    designation: 
-    company: 
-    location: 
-- scope:
-    path: ''
-    type: events
-  values:
-    title: 
-    image: 
-    venue: 
-    date: 
-    event_url: 
+
 email: your-email@domain.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
