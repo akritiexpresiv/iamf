@@ -2,9 +2,6 @@
 title: Your awesome title
 timezone: UTC
 collections:
-  advisory-board:
-    title: Advisory Board
-    output: true
   posts:
     title: Posts
     output: true
